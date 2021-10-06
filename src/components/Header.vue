@@ -9,17 +9,17 @@
 
     <!-- Sezione Jumbotron -->
     <div class="row justify-content-end" id="container-insurance-consulting">
-      <div class="col-6 ">
+      <div class="col-6">
         <p class="col-12">FUSION e ACQUISITIONS</p>
-        <h1 class="col-5">Insurance Consulting</h1>
+        <h1 class="col-5 mb-3">Insurance Consulting</h1>
         <div class="row">
-          <input class="col-5" type="text" placeholder="Name">
-          <input class="col-5" type="text" placeholder="Email">
-          <input class="col-5" type="text" placeholder="Phone">
-          <input class="col-5" type="text" placeholder="More Info">
+          <input class="col-5 m-1 p-2" type="text" placeholder="Name">
+          <input class="col-5 m-1 p-2" type="text" placeholder="Email">
+          <input class="col-5 m-1 p-2" type="text" placeholder="Phone">
+          <input class="col-5 m-1 p-2" type="text" placeholder="More Info">
 
-          <button class="col-3">GET IN TOUCH</button>
-          <button class="col-3">READ MORE</button>
+          <button class="col-3 my-button mt-3 me-3" id="touch-btn">GET IN TOUCH</button>
+          <button class="col-3 my-button mt-3" id="read-btn">READ MORE</button>
         </div>
       </div>
     </div>
@@ -47,6 +47,7 @@ data: function (){
 </script>
 
 <style scoped lang="scss">
+@import "../style/variable.scss";
 
 header{
   height: 800px;
@@ -55,6 +56,37 @@ header{
 
 #container-insurance-consulting{
   padding: 130px;
+}
+
+p{
+  color: $primaryColor;
+}
+
+h1{
+  font-size: 4em;
+  font-weight: 600;
+}
+
+input{
+  background-color: lightgray;
+  border-radius: 5px;
+  border: none;
+}
+
+.my-button{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+#touch-btn{
+  color: white;
+  background-color: $primaryColor;
+}
+
+#read-btn{
+  color: $primaryColor;
+  border: 1px solid $primaryColor;
 }
 
 
