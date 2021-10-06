@@ -1,12 +1,16 @@
 <template>
-  <div>
-
-  </div>
+  <!-- Sezione The Company -->
+    <TheCompany />
 </template>
 
 <script>
+import TheCompany from './TheCompany.vue'
+
 export default {
-name: 'Main'
+name: 'Main',
+components: {
+  TheCompany
+}
 }
 </script>
 
