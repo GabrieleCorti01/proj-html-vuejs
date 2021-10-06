@@ -31,12 +31,12 @@ export default {
 @import "~bootstrap/scss/bootstrap.scss";
 @import "./style/variable.scss";
 
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Ubuntu';
-  color: $secondaryColor;
 }
 
 

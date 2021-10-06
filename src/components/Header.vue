@@ -18,8 +18,8 @@
           <input class="col-5 m-1 p-2" type="text" placeholder="Phone">
           <input class="col-5 m-1 p-2" type="text" placeholder="More Info">
 
-          <button class="col-3 my-button mt-3 me-3" id="touch-btn">GET IN TOUCH</button>
-          <button class="col-3 my-button mt-3" id="read-btn">READ MORE</button>
+          <button class="col-3 my-button colored-btn mt-3 me-3">GET IN TOUCH</button>
+          <button class="col-3 my-button white-btn mt-3">READ MORE</button>
         </div>
       </div>
     </div>
@@ -73,21 +73,7 @@ input{
   border: none;
 }
 
-.my-button{
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-}
 
-#touch-btn{
-  color: white;
-  background-color: $primaryColor;
-}
-
-#read-btn{
-  color: $primaryColor;
-  border: 1px solid $primaryColor;
-}
 
 
 

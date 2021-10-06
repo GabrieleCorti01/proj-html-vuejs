@@ -7,4 +7,19 @@ $mainFont : 'Ubuntu';
 $primaryColor: #048383;
 $secondaryColor: #121117;
 
+.colored-btn{
+    color: white;
+    background-color: $primaryColor;
+}
+
+.white-btn{
+    color: $primaryColor;
+    border: 1px solid $primaryColor;
+}
+
+.my-button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
 
