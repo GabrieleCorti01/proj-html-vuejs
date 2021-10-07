@@ -3,6 +3,9 @@
     <TheCompany />
     <ExcellenceInServices />
     <ProcessManagement />
+    <TeamOfExperts />
+    <LatestNews />
+    
     
   </div>
   <!-- Sezione The Company -->
@@ -13,6 +16,8 @@
 import TheCompany from './TheCompany.vue'
 import ExcellenceInServices from './ExcellenceInServices.vue'
 import ProcessManagement from './ProcessManagement.vue'
+import TeamOfExperts from './TeamOfExperts.vue'
+import LatestNews from './LatestNews.vue'
 
 export default {
 name: 'Main',
@@ -20,6 +25,8 @@ components: {
   TheCompany,
   ExcellenceInServices,
   ProcessManagement,
+  TeamOfExperts,
+  LatestNews
 }
 }
 </script>
