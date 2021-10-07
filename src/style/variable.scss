@@ -6,6 +6,7 @@ $mainFont : 'Ubuntu';
 // Palette Colori:
 $primaryColor: #048383;
 $secondaryColor: #121117;
+$thirdColor: #eef3ec;
 
 .colored-btn{
     color: white;
@@ -21,5 +22,30 @@ $secondaryColor: #121117;
     padding: 10px;
     border-radius: 5px;
     border: none;
+}
+
+.upper-title{
+    color: $primaryColor;
+    font-size: 0.9em;
+}
+
+.bg-text{
+    background-color: rgb(4, 131, 131, 0.2);
+    color: $primaryColor;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bg-text-white{
+    background-color: rgb(4, 131, 131, 0.2);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.subtitle-main{
+    font-weight: 300;
+    font-size: 0.9em;
+    color: grey;
 }
 

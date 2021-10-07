@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
       <h5 class="fw-bold mb-4">{{ title }}</h5>
       <p>{{ text }}</p>
   </div>

@@ -2,6 +2,8 @@
   <div id="container-main">
     <TheCompany />
     <ExcellenceInServices />
+    <ProcessManagement />
+    
   </div>
   <!-- Sezione The Company -->
 
@@ -10,12 +12,14 @@
 <script>
 import TheCompany from './TheCompany.vue'
 import ExcellenceInServices from './ExcellenceInServices.vue'
+import ProcessManagement from './ProcessManagement.vue'
 
 export default {
 name: 'Main',
 components: {
   TheCompany,
   ExcellenceInServices,
+  ProcessManagement,
 }
 }
 </script>
