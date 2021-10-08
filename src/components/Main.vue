@@ -5,11 +5,10 @@
     <ProcessManagement />
     <TeamOfExperts />
     <LatestNews />
+    <KnowFirst />
     
     
   </div>
-  <!-- Sezione The Company -->
-
 </template>
 
 <script>
@@ -18,6 +17,7 @@ import ExcellenceInServices from './ExcellenceInServices.vue'
 import ProcessManagement from './ProcessManagement.vue'
 import TeamOfExperts from './TeamOfExperts.vue'
 import LatestNews from './LatestNews.vue'
+import KnowFirst from './KnowFisrt.vue'
 
 export default {
 name: 'Main',
@@ -26,7 +26,8 @@ components: {
   ExcellenceInServices,
   ProcessManagement,
   TeamOfExperts,
-  LatestNews
+  LatestNews,
+  KnowFirst
 }
 }
 </script>

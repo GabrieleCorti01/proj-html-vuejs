@@ -1,9 +1,10 @@
 <template>
   <header class="container-fluid">
-   <!-- Sezione header    -->
-      <div class="row justify-content-center align-items-center text-center p-4">
+   <!-- Sezione header -->
+   <HeaderContact />
+      <div class="row justify-content-center align-items-center p-4">
         <img class="col-1 me-2" src="../img/nexgen-logo.svg" alt="">
-        <NavElement class="col-1" v-for="(element, index) in navElement" :key="index" :title="element.text" />
+        <NavElement class="col-1 text-center" v-for="(element, index) in navElement" :key="index" :title="element.text" />
         <button class="btn-primary col-2">GET IN TOUCH</button>
       </div>
 
@@ -32,11 +33,13 @@
 <script>
 import NavElement from './NavElement.vue'
 import navElement from '../data/navElement'
+import HeaderContact from './HeaderContact.vue'
 
 export default {
 name: 'Header',
 components: {
   NavElement,
+  HeaderContact
 },
 data: function (){
         return {

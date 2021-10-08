@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <Contact />
     <Header />
     <Main />
     <Footer />
@@ -9,7 +8,6 @@
 </template>
 
 <script>
-import Contact from './components/Contact.vue'
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
@@ -19,7 +17,6 @@ import Footer from './components/Footer.vue'
 export default {
   name: 'App',
   components: {
-    Contact,
     Header,
     Main,
     Footer
@@ -38,6 +35,10 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Ubuntu';
+}
+
+a{
+  text-decoration: none;
 }
 
 
