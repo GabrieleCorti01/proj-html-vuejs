@@ -1,16 +1,18 @@
 <template>
   <div class="container-fluid" id="services-container">
+  <!-- Sezione riga contenitrice generale -->
       <div class="row justify-content-center">
+        <!-- Sezione superiore statica  -->
         <div class="col-7 mt-5">
             <p class="upper-title">OUR BUSINESS AREAS</p>
             <span class="me-4">Excellence in</span> <span class="bg-text">Services</span>
             <p class="mt-3 subtitle-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sapiente quae atque totam repudiandae, natus a esse quaerat asperiores culpa nisi voluptas quidem aperiam aut, reiciendis voluptatibus. Quos, nemo assumenda. asperiores culpa nisi voluptas quidem aperiam aut, reiciendis voluptatibus. Quos, nemo assumenda.</p>
         </div>
-
+  <!-- Sezione bottone -->
         <div class="col-2">
-            <button id="see-all-btn" class="my-button colored-btn">SEE ALL</button>
+            <button id="see-all-btn" class="my-button colored-btn btn-hover-colored">SEE ALL</button>
         </div>
-
+  <!-- Sezione elemnti dinamici -->
         <div class="row justify-content-center mb-5">
             <ServicesElement id="container-elemento" class="col-3 m-4" v-for="(element, index) in excellenceServices" :key="index" :title="element.title" :text="element.text"/>
         </div>

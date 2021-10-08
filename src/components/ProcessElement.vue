@@ -1,8 +1,9 @@
 <template>
+  <!-- Sezione elementi dinamici -->
   <div>
-       <p id="number-style" class="justify-content-center">{{ number }}</p>
-       <p id="title">{{ title }}</p>
-       <p class="subtitle-main">{{ text }}</p>
+    <p id="number-style" class="justify-content-center">{{ number }}</p>
+    <p id="title">{{ title }}</p>
+    <p class="subtitle-main">{{ text }}</p>
   </div>
 </template>
 

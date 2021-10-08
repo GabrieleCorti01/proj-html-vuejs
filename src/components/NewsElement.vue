@@ -1,13 +1,14 @@
 <template>
     <div class="row justify-content-center text-center p-4">
+    <!-- Sezione vari elementi statici news -->
         <div class="element-box box-1 col-4 m-2 p-3 align-items-end d-flex">
             <p>Increasing creativity is possible for everyone</p>
         </div>
-
+    <!-- Sezione vari elementi statici news -->
         <div class="element-box box-2 col-4 m-2 p-3 align-items-end d-flex">
             <p>Because market research is part of the business plan</p>
         </div>
-        
+    <!-- Sezione vari elementi statici news -->   
         <div class="element-box box-3 col-4 m-2 p-3 align-items-end d-flex">
             <p>Working from home is now a trend</p>
         </div>

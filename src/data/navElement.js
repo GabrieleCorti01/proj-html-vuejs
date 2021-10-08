@@ -1,9 +1,11 @@
 export default [
     {
-        text: "HOME"
+        text: "HOME",
+        url: "#"
     },
     {
-        text: "ABOUT"
+        text: "ABOUT",
+        url: "#the-company"
     },
     {
         text: "SERVICES"

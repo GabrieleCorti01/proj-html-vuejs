@@ -1,9 +1,11 @@
 <template>
   <div class="p-5">
-      <div class="d-flex justify-content-between">
-          <span>ic</span> <span>ic</span>
+    <!-- Icona statica -->
+      <div class="d-flex justify-content-end">
+          <i class="fas fa-arrow-right"></i>
       </div>
       
+    <!-- Elementi dinamici -->
       <p id="title">{{ title }}</p>
       <p id="text">{{ text }}</p>
   </div>
@@ -18,6 +20,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../style/variable.scss";
 
 #title{
     font-size: 1.6em;
@@ -27,6 +30,11 @@ export default {
     font-size: 0.8em;
     color: grey;
     font-weight: 300;
+}
+
+i{
+    font-size: 2em;
+    color: $primaryColor;
 }
 
 </style>

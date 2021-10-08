@@ -1,6 +1,9 @@
 <template>
   <div class="container-fluid">
+
+  <!-- Sezione contenitrice -->
     <div class="row p-5 justify-content-center">
+
   <!-- Sezione statica contatti sinistra -->
       <div class="col-2">
         <img src="../img/nexgen-logo.svg" alt="logo azinda footer">
@@ -11,10 +14,12 @@
         <button class="my-button custom-btn mt-2">GET IN TOUCH</button>
       </div>
   <!-- Sezione dinamica links destra -->
+
       <FooterLink class="col-2" v-for="(element, index) in footerElement" :key="index" :title="element.title" :link1="element.link1" :link2="element.link2" :link3="element.link3" :link4="element.link4" :link5="element.link5" :link6="element.link6"/>
     </div>
   <!-- Sezione underfooter con privacy  -->
     <FooterPrivacy />
+    
   </div>
 </template>
 

@@ -4,11 +4,11 @@
       <ul>
           <h5>{{ title }}</h5>
           <li><a href="#"><i class="fas fa-chevron-right me-2 mt-2"></i>{{ link1 }}</a></li> 
-          <li><i class="fas fa-chevron-right me-2"></i>{{ link2 }}</li>
-          <li><i class="fas fa-chevron-right me-2"></i>{{ link3 }}</li>
-          <li><i class="fas fa-chevron-right me-2"></i>{{ link4 }}</li>
-          <li><i class="fas fa-chevron-right me-2"></i>{{ link5 }}</li>
-          <li><i class="fas fa-chevron-right me-2"></i>{{ link6 }}</li>
+          <li><a href="#"><i class="fas fa-chevron-right me-2"></i>{{ link2 }}</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right me-2"></i>{{ link3 }}</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right me-2"></i>{{ link4 }}</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right me-2"></i>{{ link5 }}</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right me-2"></i>{{ link6 }}</a></li>
       </ul>
   </div>
 </template>
@@ -24,7 +24,7 @@ props :[ "title", "link1", "link2", "link3", "link4", "link5", "link6", ]
 @import "../style/variable.scss";
 
 .container-link{
-    background-color: grey;
+    background-color: #242427;
     width: 220px;
     border-radius: 10px;
     padding: 40px 0;
@@ -36,6 +36,12 @@ props :[ "title", "link1", "link2", "link3", "link4", "link5", "link6", ]
     }
     li{
         font-weight: 300;
+        a{
+            text-decoration: none;
+            color: lightgray;
+        } a:hover{
+            color: $primaryColor;
+        }
     }
 }
 

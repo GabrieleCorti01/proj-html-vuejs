@@ -9,7 +9,7 @@
           </div>
     <!-- Parte dei contenuti dinamica -->
           <div class="row justify-content-center mb-5">
-              <ProcessElement class="col-2 mb-4" v-for="(element, index) in managementElement" :key="index" :number="element.number" :title="element.title" :text="element.text"/>
+              <ProcessElement class="col-2 mb-4 mt-5" v-for="(element, index) in managementElement" :key="index" :number="element.number" :title="element.title" :text="element.text"/>
           </div>
       </div>
   </div>

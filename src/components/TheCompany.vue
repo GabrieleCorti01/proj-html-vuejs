@@ -1,18 +1,20 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid" id="the-company">
+    <!-- Sezione riga principale   -->
       <div class="row justify-content-center ">
+    <!-- Sezione colonna sinistra statica -->
           <div class="col-3 me-5 my-container-box">
               <p id="upper-title">ABOUT THE NETWORK</p>
               <span class="me-1" id="back-text">The</span> <span class>Company</span>
               <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ad eligendi sint ipsum iure, voluptates numquam doloribus placeat ducimus velit quasi pariatur.</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ad eligendi sint ipsum iure.</p>
           </div>
-
+    <!-- Sezione colonna destra dinamica -->
           <div class="col-4 ms-5 my-container-box">
+    <!-- Sezione interna dinamica -->
               <div class="row">
-                  <CompanyElement class="col-5 mb-4" v-for="(element, index) in companyElement" :key="index" :title="element.title" :text="element.text"/>
+                  <CompanyElement class="col-5 mb-4 me-3" v-for="(element, index) in companyElement" :key="index" :title="element.title" :text="element.text" :icon="element.icon"/>
               </div>
-              
           </div>
       </div>
   </div>

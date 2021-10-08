@@ -11,6 +11,7 @@ $thirdColor: #eef3ec;
 .colored-btn{
     color: white;
     background-color: $primaryColor;
+    border: none;
 }
 
 .white-btn{
@@ -21,7 +22,7 @@ $thirdColor: #eef3ec;
 .my-button{
     padding: 10px;
     border-radius: 5px;
-    border: none;
+    
 }
 
 .upper-title{
@@ -47,5 +48,20 @@ $thirdColor: #eef3ec;
     font-weight: 300;
     font-size: 0.9em;
     color: grey;
+}
+
+.btn-hover-colored{
+    &:hover{
+    color: $primaryColor;
+    background-color: white;
+    border: 1px solid $primaryColor;
+    }
+}
+
+.btn-hover-white{
+    &:hover{
+    color: white;
+    background-color: $primaryColor;
+    }
 }
 

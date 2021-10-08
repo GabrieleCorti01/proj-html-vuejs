@@ -1,20 +1,21 @@
 <template>
   <div class="container-fluid">
+    <!-- Sezione contenitrice -->
     <div class="row justify-content-center mt-5">
+    <!-- Sezione colonna statica superiore -->
         <div class="col-4 mt-5">
             <p class="upper-title">OUR EDITORIAL CONTENT</p>
             <span>Latest</span><span class="bg-text ms-3">News</span>
             <p class="subtitle-main mt-3">Every week we publish content about what is the best in the business world.</p>
         </div>
 
+    <!-- Sezione bottone -->
         <div class="col-2">
-            <button class="my-button colored-btn">SEE ALL</button>
+            <button class="my-button colored-btn btn-hover-colored" id="news-button">SEE ALL</button>
         </div>
     </div>
-
-    
-        <NewsElement />
-    
+    <!-- Sezione dinamica news interna solo alla main row -->
+        <NewsElement class="mb-5"/>
   </div>
 </template>
 
@@ -44,8 +45,9 @@ span{
     font-weight: 700;
 }
 
-button{
-    margin-top: 100px;
+#news-button{
+    margin-top: 150px;
+    margin-left: 150px;
 }
 
 </style>
